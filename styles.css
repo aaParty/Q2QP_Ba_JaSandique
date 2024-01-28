@@ -1,0 +1,1316 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&family=Open+Sans');
+
+/*responsive*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: white;
+}
+
+h1
+{
+    margin-left: 20px;
+    font-family: 'Roboto Slab';
+    color: rgb(8, 86, 153);
+    text-shadow: 2px 2px rgb(12, 45, 74);
+}
+
+h2
+{
+    font-family: 'Roboto Slab';
+    color: rgb(8, 86, 153);
+    text-align: center;
+    text-shadow: 1px 1px rgb(12, 45, 74);
+}
+
+h3
+{
+    margin-left: 20px;
+    font-family: 'Roboto Slab';
+    color: rgb(8, 86, 153);
+    text-shadow: 1px 1px rgb(12, 45, 74);
+}
+
+a
+{
+    font-family: 'Open Sans';
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(12, 45, 74);
+    text-shadow: 0px 0px 10px rgb(14, 39, 78);
+}
+
+p
+{
+    font-family: 'Open Sans';
+    font-size: medium;
+    color: rgb(12, 45, 74);
+}
+
+p1
+{
+    margin-left: 15px;
+    font-family: 'Open Sans';
+    font-size: small;
+    color: rgb(12, 45, 74);
+}
+
+p2
+{
+    margin-left: 15px;
+    font-family: 'Open Sans';
+    font-size: small;
+    color: rgb(12, 45, 74);
+}
+
+img
+{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 20%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+#group1
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#group2
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+#group3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+#group4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#group6
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#group6 img
+{
+    margin: 0px 15px 0px 15px;
+    height: 200px;
+    width: 250px;
+    border: black 3px solid;
+}
+
+#group7
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#group8
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#line
+{
+    background-color: rgb(14, 39, 78);
+    margin: 30px;
+    width: 98%;
+    height: 3px;
+}
+
+#line2
+{
+    background-color: rgb(14, 39, 78);
+    margin: 30px;
+    width: 3px;
+    height: 245px;
+}
+
+#line3
+{
+    background-color: rgb(14, 39, 78);
+    margin: 20px 0px 20px 0px;
+    width: 98%;
+    height: 3px;
+}
+
+#line4
+{
+    background-color: rgb(14, 39, 78);
+    margin: 30px;
+    width: 98%;
+    height: 3px;
+}
+
+#text1
+{
+    margin-top: 50px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+#text2
+{
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-image: linear-gradient(to right, rgb(60, 95, 176), rgb(111, 138, 200));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    background-image: url(images/party.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    border: 4px solid rgb(8, 86, 153);
+}
+
+.page1
+{
+    margin-left: 15px;
+    padding: 15px;
+    width: 46px;
+    height: 5px;
+    background-color: rgb(10, 86, 158);
+    border: rgb(8, 86, 153) 2px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page2
+{
+    margin-right: 15px;
+    padding: 15px;
+    width: 97.5px;
+    height: 5px;
+    background-color: rgb(10, 86, 158);
+    border: rgb(8, 86, 153) 2px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.background
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.banner
+{   
+    margin: 30px;
+    width: 95%;
+    height: 30%;
+}
+
+video
+{
+    margin: 30px;
+    width: 95%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.accomplishments1
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 75px;
+    border: rgb(5, 43, 75) 2px dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.accomplishments2
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 75px;
+    border: rgb(5, 43, 75) 2px dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.accomplishments3
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 75px;
+    border: rgb(5, 43, 75) 2px dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.accomplishments4
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 75px;
+    border: rgb(5, 43, 75) 2px dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.accomplish1
+{
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-1000px);
+}
+
+.accomplish2
+{
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-1000px);
+}
+
+.accomplish3
+{
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-1000px);
+}
+
+.accomplish4
+{
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-1000px);
+}
+
+.buttons1
+{
+    margin: 0px 50px 0px 200px;
+    padding: 10px;
+    border: rgb(5, 43, 75) 3px solid;
+    font-family: 'Roboto Slab';
+    margin-left: 20px;
+    color: rgb(8, 86, 153);
+    text-align: center;
+    z-index: 2;
+}
+
+.buttons2
+{
+    margin: 0px 50px 0px 200px;
+    padding: 10px;
+    border: rgb(5, 43, 75) 3px solid;
+    font-family: 'Roboto Slab';
+    margin-left: 20px;
+    color: rgb(8, 86, 153);
+    text-align: center;
+    z-index: 2;
+}
+
+.buttons3
+{
+    margin: 0px 0px 0px 200px;
+    padding: 10px;
+    border: rgb(5, 43, 75) 3px solid;
+    font-family: 'Roboto Slab';
+    margin-left: 20px;
+    color: rgb(8, 86, 153);
+    text-align: center;
+    z-index: 2;
+}
+
+.extension1
+{
+    opacity: 0;
+    height: 240%;
+    width: 100%;
+    background-color: aliceblue;
+    transform: scale(.01);
+    position: absolute;
+    z-index: 1;
+}
+
+.extension2
+{
+    opacity: 0;
+    height: 240%;
+    width: 100%;
+    background-color: aliceblue;
+    transform: scale(.01);
+    position: absolute;
+    z-index: 1;
+}
+
+.extension3
+{
+    opacity: 0;
+    height: 240%;
+    width: 100%;
+    background-color: aliceblue;
+    transform: scale(.01);
+    position: absolute;
+    z-index: 1;
+}
+
+.body1
+{
+    opacity: 0;
+    transform: translateY(425px);
+    position: absolute;
+}
+
+.body2
+{
+    opacity: 0;
+    transform: translateY(425px);
+    position: absolute;
+}
+
+.body3
+{
+    opacity: 0;
+    transform: translateY(425px);
+    position: absolute;
+}
+
+.boxes
+{
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-self: center;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+}
+
+.bigbox
+{
+    margin: 25px;
+    padding: 15px;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(10, 86, 158);
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 15px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+}
+
+.box
+{
+    margin: 15px;
+    padding: 15px;
+    width: 475px;
+    height: 250px;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 15px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+}
+
+#group6 img
+{
+    width: 200px;
+    height: 200px;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 15px;
+}
+
+.sprite
+{
+    background: url('images/sprite.png') no-repeat;
+	width: 67px;
+	height: 66px;
+    transform: scale(0.75);
+}
+
+#twitter
+{
+    background-position: -66px -72px;
+}
+
+#discord
+{
+    background-position: -216px -146px;
+}
+
+#facebook
+{
+    background-position: -439px -146px;
+}
+
+.donation
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 75px;
+    border: rgb(5, 43, 75) 2px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.phone
+{
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 30px;
+    border: rgb(5, 43, 75) 2px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone h3
+{
+    margin-left: 60px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background-image: linear-gradient(to left, rgb(60, 95, 176), rgb(111, 138, 200));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.page3
+{
+    margin-right: 15px;
+    padding: 10px;
+    width: 73px;
+    height: 5px;
+    background-color: rgb(10, 86, 158);
+    border: rgb(8, 86, 153) 2px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*pictures*/
+
+.pic1
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict1.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    transform: rotate(5deg);
+}
+
+.pic2
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict2.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-2deg);
+}
+
+.pic3
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict3.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-4deg);
+}
+
+.pic4
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict4.webp);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    transform: rotate(7deg);
+}
+
+.pic5
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict5.webp);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-1deg);
+}
+
+.pic6
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict6.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-6deg);
+}
+
+.pic7
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict7.webp);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-3deg);
+}
+
+.pic8
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict8.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    transform: rotate(5deg);
+}
+
+.pic9
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict9.jpeg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    transform: rotate(5deg);
+}
+
+.pic10
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict10.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: -2px 2px rgb(5, 43, 75);
+    transform: rotate(2deg);
+}
+
+.pic11
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict11.webp);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-3deg);
+}
+
+.pic12
+{
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(images/pict12.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+    transform: rotate(-6deg);
+}
+
+.pic13
+{
+    margin: 30px;
+    height: 325px;
+    width: 725px;
+    background-image: url(images/pict13.avif);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+}
+
+.pic14
+{
+    margin: 30px;
+    height: 325px;
+    width: 725px;
+    background-image: url(images/pict14.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+}
+
+.pic15
+{
+    margin: 30px;
+    height: 325px;
+    width: 725px;
+    background-image: url(images/pict15.avif);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+}
+
+.pic16
+{
+    margin: 30px;
+    height: 325px;
+    width: 725px;
+    background-image: url(images/pict16.jpg);
+    background-size: cover;
+    border: rgb(5, 43, 75) 3px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(5, 43, 75);
+}
+
+/*animations*/
+
+#group3:hover ~ #group2
+{
+    opacity: 0; 
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .25s;
+} 
+
+.accomplishments1:hover ~ .accomplish1
+{
+    opacity: 1;
+    transition: ease-in;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.accomplishments2:hover ~ .accomplish2
+{
+    opacity: 1;
+    transition: ease-in;
+    transition-duration: .5s;
+    transition-delay: 1.25s;
+}
+
+.accomplishments3:hover ~ .accomplish3
+{
+    opacity: 1;
+    transition: ease-in;
+    transition-duration: .5s;
+    transition-delay: 1.25s;
+}
+
+.accomplishments4:hover ~ .accomplish4
+{
+    opacity: 1;
+    transition: ease-in;
+    transition-duration: .5s;
+    transition-delay: 1.25s;
+}
+
+.buttons1:hover ~ .body1
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.buttons1:hover ~ .extension1
+{
+    transform: scale(1);
+}
+
+.extension1:hover
+{
+    transform: scale(1);
+}
+
+.extension1:hover ~ .body1
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.buttons2:hover ~ .body2
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.buttons2:hover ~ .extension2
+{
+    transform: scale(1);
+}
+
+.extension2:hover
+{
+    transform: scale(1);
+}
+
+.extension2:hover ~ .body2
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.buttons3:hover ~ .body3
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.buttons3:hover ~ .extension3
+{
+    transform: scale(1);
+}
+
+.extension3:hover
+{
+    transform: scale(1);
+}
+
+.extension3:hover ~ .body3
+{
+    opacity: 1;
+    transition: ease-out;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+@media screen and (max-width: 720px)
+{
+    h1
+    {
+        font-size: 150%;
+        text-shadow: 1px 1px rgb(12, 45, 74);
+    }
+
+    h2
+    {
+        font-size: 75%;
+        text-shadow: .5px .5px rgb(12, 45, 74);
+    }
+
+    h3
+    {
+        margin-left: 3px;
+        font-size: 75%;
+        text-shadow: .5px .5px rgb(12, 45, 74);
+    }
+
+    p
+    {
+        margin-left: 15px;
+        font-size: 75%;
+    }
+
+    p1
+    {
+        margin-left: 5px;
+        font-size: xx-small;
+    }
+
+    p2
+    {
+        margin-left: 4px;
+        font-size: xx-small;
+    }
+
+    #group2 #line
+    {
+        width: 450px;
+    }
+
+    #group6 #line2
+    {
+        width: 400px;
+        height: 2px;
+    }
+
+    #line3
+    {
+        background-color: rgb(14, 39, 78);
+        margin: 10px;
+        width: 3px;
+        height: 200px;
+    }
+
+    #line4
+    {
+        background-color: rgb(14, 39, 78);
+        margin: 30px;
+        margin-top: 175px;
+        width: 450px;
+        height: 3px;
+    }
+
+    #text1
+    {
+        white-space: normal;
+    }
+
+    #group1
+    {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    #group3 img
+    {
+        margin-bottom: -10px;
+        width: 50%;
+        height: 1%;
+        border-radius: 10px;
+    }
+
+    #group1 #group3
+    {
+        flex-direction: row;
+    }
+
+    .boxes #group3
+    {
+        flex-direction: row;
+    }
+
+    #group3 #group4
+    {
+        transform: scale(.5);
+    }
+
+    .body1 #group4
+    {
+        flex-direction: column;
+    }
+
+    .body3 #group4
+    {
+        flex-direction: column;
+    }
+
+    #group6
+    {
+        flex-direction: column;
+    }
+
+    .navbar #group6
+    {
+        flex-direction: row;
+    }
+
+    #group6 #group3
+    {
+        left: 300px;
+        bottom: -230px;
+        position: absolute;
+    }
+
+    #group6 #text
+    {
+        width: 95%;
+    }
+
+    .body2 #group7
+    {
+        flex-direction: column;
+    }
+
+    #group7 #group3
+    {
+        flex-direction: row;
+    }
+
+    #group8
+    {
+        flex-direction: column;
+    }
+
+    video
+    {
+        margin: 5px;
+    }
+
+    .accomplishments1
+    {
+        margin: 5px;
+        padding: 5px;
+        width: 95px;
+        height: 35px;
+    }
+
+    .accomplishments2
+    {
+        margin: 5px;
+        padding: 5px;
+        width: 95px;
+        height: 35px;
+    }
+
+    .accomplishments3
+    {
+        margin: 5px;
+        padding: 5px;
+        width: 95px;
+        height: 35px;
+    }
+
+    .accomplishments4
+    {
+        margin: 5px;
+        padding: 5px;
+        width: 95px;
+        height: 35px;
+    }
+
+    .accomplish1
+    {
+        transform: translateX(0px);
+    }
+
+    .accomplish2
+    {
+        transform: translateX(0px);
+    }
+
+    .accomplish3
+    {
+        transform: translateX(0px);
+    }
+
+    .accomplish4
+    {
+        transform: translateX(0px);
+    }
+
+    .buttons1
+    {
+        margin: 0px 5px 0px 10px;
+        padding: 5px;
+        border: rgb(5, 43, 75) 2px solid;
+    }
+
+    .buttons2
+    {
+        margin: 0px 5px 0px 10px;
+        padding: 5px;
+        border: rgb(5, 43, 75) 2px solid;
+    }
+
+    .buttons3
+    {
+        margin: 0px 10px 0px 10px;
+        padding: 5px;
+        border: rgb(5, 43, 75) 2px solid;
+    }
+
+    .boxes
+    {
+        margin: 5px;
+        margin-top: -50px;
+        padding: 5px;
+        width: 415px;
+        height: 230px;
+        border: rgb(5, 43, 75) 1px solid;
+        box-shadow: -1px 1px rgb(5, 43, 75);
+    }
+
+    .bigbox
+    {
+        margin: 15px;
+        padding: 5px;
+        width: 450px;
+        height: 600px;
+        border: rgb(5, 43, 75) 1px solid;
+        box-shadow: 1px 1px rgb(5, 43, 75);
+    }
+
+    .box
+    {
+        margin: 15px;
+        padding: 15px;
+        width: 400px;
+        height: 200px;
+        border: rgb(5, 43, 75) 2px solid;
+        border-radius: 10px;
+        box-shadow: -1px 1px rgb(5, 43, 75);
+    }
+
+    .donation
+    {
+        width: 400px;
+        height: 50px;
+    }
+
+    .phone
+    {
+        width: 400px;
+        height: 20px;
+    }
+
+    .pic1
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic2
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic3
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic4
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic5
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic6
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic7
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic8
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic9
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic10
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic11
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic12
+    {
+        margin: 15px;
+        height: 125px;
+        width: 200px;
+        border: rgb(5, 43, 75) .5px solid;
+        box-shadow: -.75px .75px rgb(5, 43, 75);
+    }
+
+    .pic13
+    {
+        margin: 10px;
+        height: 275px;
+        width: 450px;
+        box-shadow: 1px 1px rgb(5, 43, 75);
+    }
+
+    .pic14
+    {
+        margin: 10px;
+        height: 275px;
+        width: 450px;
+        box-shadow: 1px 1px rgb(5, 43, 75);
+    }
+
+    .pic15
+    {
+        margin: 10px;
+        height: 275px;
+        width: 450px;
+        box-shadow: 1px 1px rgb(5, 43, 75);
+    }
+
+    .pic16
+    {
+        margin: 10px;
+        height: 275px;
+        width: 450px;
+        box-shadow: 1px 1px rgb(5, 43, 75);
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 720px)
+{
+    .bigbox
+    {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px)
+{
+    .bigbox
+    {
+        width: 800px;
+    }
+}
